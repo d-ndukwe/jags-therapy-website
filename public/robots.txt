@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://www.jagstherapy.netlify.app/sitemap.xml
