@@ -98,14 +98,14 @@ export function ContactSection() {
             <div className="space-y-8">
               {/* Phone 1 */}
               <a 
-                href="tel:+2347025070083" // Replace with actual number
+                href="tel:+2348105933691" // Replace with actual number
                 className="flex items-center gap-4 group"
               >
                 <div className="p-4 rounded-full bg-[#16181A] border border-white/5 group-hover:border-[#2ECC71] transition-colors">
                   <Phone className="text-[#2ECC71]" size={20} />
                 </div>
                 <span className="text-md tracking-wider group-hover:text-[#2ECC71] transition-colors" style={{ fontFamily: "'Poppins', sans-serif", color: "#EAEAEA" }}>
-                  +234 (0) 702 507 0083
+                  +234 (0) 810 593 3691
                 </span>
               </a>
 
