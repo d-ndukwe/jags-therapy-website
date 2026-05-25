@@ -6,7 +6,7 @@ import { Wine, Utensils, Search, Menu as MenuIcon, X, Dumbbell } from "lucide-re
 const rawMenuData = {
   cellar: [
     { category: "Whisky", items: [
-      { name: "Jameson Black Barrel (70cl)", price: "₦100,000.00" }, { name: "Jameson Irish (70cl)", price: "₦55,000.00" },
+      { name: "Jameson Black Barrel (70cl)", price: "₦110,000.00" }, { name: "Jameson Irish (70cl)", price: "₦55,000.00" },
       { name: "Glenfiddich (18yrs)", price: "₦300,000.00" }, { name: "Glenfiddich (15yrs)", price: "₦180,000.00" },
       { name: "Glenfiddich (12yrs)", price: "₦150,000.00" }, { name: "Jack Daniel (70cl)", price: "₦55,000.00" },
       { name: "Black Label (70cl)", price: "₦100,000.00" }, { name: "Gentleman Jack", price: "₦120,000.00" },
@@ -71,17 +71,17 @@ const rawMenuData = {
       { name: "Jagameister", price: "₦2,500.00" }
     ]},
     { category: "Beers", items: [
-      { name: "Heineken", price: "₦3,000.00" }, { name: "Heineken (Draft)", price: "₦3,500.00" },
-      { name: "Tiger Draft", price: "₦3,500.00" }, { name: "Trophy", price: "₦1,800.00" },
-      { name: "33 Beer", price: "₦1,800.00" }, { name: "Hero", price: "₦1,800.00" },
-      { name: "Budweiser", price: "₦3,000.00" }, { name: "Goldberg", price: "₦1,800.00" },
-      { name: "Desperado", price: "₦1,700.00" }, { name: "Legend Beer", price: "₦3,000.00" },
-      { name: "Flying Fish Beer", price: "₦1,750.00" }, { name: "Star Beer", price: "₦1,800.00" },
-      { name: "Orijin Beer", price: "₦2,000.00" }, { name: "Star Radler", price: "₦1,750.00" },
-      { name: "Tiger Beer", price: "₦1,750.00" }, { name: "Smirnoff Ice (Big)", price: "₦3,000.00" },
-      { name: "Guiness Stout (Big)", price: "₦3,000.00" }, { name: "Gulder", price: "₦1,850.00" },
-      { name: "Life Beer", price: "₦1,750.00" }, { name: "Guiness Stout (Small)", price: "₦1,500.00" },
-      { name: "Smirnoff Ice (Small)", price: "₦1,500.00" }, { name: "Medium Heineken", price: "₦2,000.00" },
+      { name: "Heineken", price: "₦3,250.00" }, { name: "Heineken (Draft)", price: "₦3,750.00" },
+      { name: "Tiger Draft", price: "₦3,500.00" }, { name: "Trophy", price: "₦2,000.00" },
+      { name: "33 Beer", price: "₦2,000.00" }, { name: "Hero", price: "₦1,800.00" },
+      { name: "Budweiser", price: "₦3,000.00" }, { name: "Goldberg", price: "₦2,000.00" },
+      { name: "Desperado", price: "₦2,000.00" }, { name: "Legend Beer", price: "₦3,000.00" },
+      { name: "Flying Fish Beer", price: "₦1,750.00" }, { name: "Star Beer", price: "₦2,000.00" },
+      { name: "Orijin Beer", price: "₦2,250.00" }, { name: "Star Radler", price: "₦1,750.00" },
+      { name: "Tiger Beer", price: "₦1,750.00" }, { name: "Smirnoff Ice (Big)", price: "₦3,250.00" },
+      { name: "Guiness Stout (Big)", price: "₦3,300.00" }, { name: "Gulder", price: "₦1,850.00" },
+      { name: "Life Beer", price: "₦2,000.00" }, { name: "Guiness Stout (Small)", price: "₦1,650.00" },
+      { name: "Smirnoff Ice (Small)", price: "₦1,500.00" }, { name: "Medium Heineken", price: "₦2,500.00" },
       { name: "Castle Lite", price: "₦1,750.00" }
     ]},
     { category: "Bitters & Energy Drinks", items: [
@@ -101,14 +101,14 @@ const rawMenuData = {
       { name: "Vita Milk", price: "₦4,500.00" }
     ]},
     { category: "Cocktails & Shooters", items: [
-      { name: "Long Island Ice Tea", price: "₦10,000.00" }, { name: "Lastman Standing / African Zombies / Bob Marley", price: "₦9,500.00" },
-      { name: "Mojito", price: "₦8,500.00" }, { name: "Mother Fucker", price: "₦8,250.00" },
-      { name: "Blue Lagoon / Margarita", price: "₦8,000.00" }, { name: "Fleming Lamborghini / Screaming Orgasm / Sex on the Beach", price: "₦7,850.00" },
+      { name: "Long Island Ice Tea", price: "₦10,500.00" }, { name: "Lastman Standing / African Zombies / Bob Marley", price: "₦10,500.00" },
+      { name: "Mojito", price: "₦9,000.00" }, { name: "Mother Fucker", price: "₦8,250.00" },
+      { name: "Blue Lagoon", price: "₦10,000.00" }, { name: "Margarita", price: "₦8,000.00" }, { name: "Fleming Lamborghini", price: "₦8,000.00" }, { name: "Screaming Orgasm / Sex on the Beach", price: "₦7,850.00" },
       { name: "Between De Sheets / Take Me Up", price: "₦7,500.00" }, { name: "Kamikaze / Blue Tiffany's Angel / Black Russian / Cosmopolitan", price: "₦7,000.00" },
-      { name: "Orgasm / Trance / Whisky Sour / Daiquiri", price: "₦6,500.00" }, { name: "B52 / Blow Job / Jagar Bomb", price: "₦4,750.00" }
+      { name: "Orgasm / Trance / Whisky Sour / Daiquiri", price: "₦7,000.00" }, { name: "B52 / Blow Job / Jagar Bomb", price: "₦4,750.00" }
     ]},
     { category: "Mocktails", items: [
-      { name: "Virgin-Colada / Virgin Mojito", price: "₦7,500.00" }, { name: "Milk-Shake / Smoothie", price: "₦8,000.00" },
+      { name: "Virgin-Colada / Virgin Mojito", price: "₦7,500.00" }, { name: "Milk-Shake / Smoothie", price: "₦8,750.00" },
       { name: "Fruit Punch / Virgin Daiquiri", price: "₦7,500.00" }, { name: "Tropical Tropicana", price: "₦7,000.00" },
       { name: "Fruit-Fruit", price: "₦6,650.00" }, { name: "Road Runner", price: "₦5,500.00" }, { name: "Chapman", price: "₦5,000.00" }
     ]}
@@ -146,11 +146,11 @@ const rawMenuData = {
       { name: "Goat Meat & Chips or Yam", price: "₦13,000.00" }, { name: "Turkey & Chips or Yam", price: "₦12,700.00" },
       { name: "Pepper Snail with Chips or Yam", price: "₦12,500.00" }, { name: "Chicken / Gizzard / Wings & Chips", price: "₦12,500.00" },
       { name: "Asun & Chips or Yam", price: "₦11,500.00" }, { name: "Pepper Snail Appetizer", price: "₦9,000.00" },
-      { name: "Pepper Goat Meat", price: "₦8,500.00" }, { name: "Pepper Beef / Turkey / Assorted", price: "₦8,000.00" },
+      { name: "Pepper Goat Meat", price: "₦8,500.00" }, { name: "Pepper Beef / Turkey / Assorted", price: "₦8,500.00" },
       { name: "Chicken Lollipop / Pepper Gizzard / Pepper Chicken", price: "₦7,500.00" }
     ]},
     { category: "Soups & Native", items: [
-      { name: "Seafood Okra / Veg / Afan / Eforiro", price: "₦35,000.00" }, { name: "Fisherman Soup", price: "₦35,000.00" },
+      { name: "Seafood Okra / Afan / Eforiro", price: "₦38,000.00" }, {name: "Seafood Vegetable", price: "₦40,000.00"}, { name: "Fisherman Soup", price: "₦40,000.00" },
       { name: "Catfish Pepper Soup (with side)", price: "₦30,000.00" }, { name: "Croaker Fish Pepper Soup (with side)", price: "₦25,000.00" },
       { name: "Afan / White / Banga / Oha Soup", price: "₦18,000.00" }, { name: "Ogbono Soup", price: "₦17,500.00" },
       { name: "Isi'Ewu", price: "₦17,000.00" }, { name: "Edikang Ikong Soup", price: "₦16,500.00" },
