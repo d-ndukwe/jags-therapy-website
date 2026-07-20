@@ -154,7 +154,7 @@ const rawMenuData = {
       { name: "Catfish Pepper Soup (with side)", price: "₦30,000.00" }, { name: "Croaker Fish Pepper Soup (with side)", price: "₦25,000.00" },
       { name: "Afan / White / Banga / Oha Soup", price: "₦18,000.00" }, { name: "Ogbono Soup", price: "₦17,500.00" },
       { name: "Isi'Ewu", price: "₦17,000.00" }, { name: "Edikang Ikong Soup", price: "₦17,000.00" },
-      { name: "Vegetable / Okra / Egusi Soup", price: "₦18,000.00" }, { name: "Special Dried Fish Veg (with side)", price: "₦14,500.00" },
+      { name: "Vegetable / Okra / Egusi Soup", price: "₦17,000.00" }, { name: "Special Dried Fish Veg (with side)", price: "₦14,500.00" },
       { name: "Nkwobi", price: "₦14,000.00" }, { name: "Goat Meat Pepper Soup", price: "₦13,500.00" },
       { name: "Abacha", price: "₦13,000.00" }, { name: "Chicken / Turkey / Assorted Pepper Soup", price: "₦12,500.00" }
     ]},
