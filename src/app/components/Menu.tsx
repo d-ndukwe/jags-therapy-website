@@ -141,7 +141,7 @@ const rawMenuData = {
       { name: "Full Goat-Lap Platter with Steam Veggies & Gravy", price: "₦65,000.00" }
     ]},
     { category: "Starters / Appetizers", items: [
-      { name: "Full Guinea Fowl Chicken", price: "₦25,000.00" }, { name: "Full Chicken Vegetables with Side", price: "₦24,500.00" },
+      { name: "Full Guinea Fowl", price: "₦25,000.00" }, { name: "Full Chicken Vegetables with Side", price: "₦24,500.00" },
       { name: "Jag's Jumbo Snail with Chips", price: "₦16,500.00" }, { name: "Chicken Nuggets / Fingers", price: "₦14,000.00" },
       { name: "Goat Meat & Chips or Yam", price: "₦13,000.00" }, { name: "Turkey & Chips or Yam", price: "₦12,700.00" },
       { name: "Pepper Snail with Chips or Yam", price: "₦12,500.00" }, { name: "Chicken / Gizzard / Wings & Chips", price: "₦12,500.00" },
@@ -153,13 +153,13 @@ const rawMenuData = {
       { name: "Seafood Okra / Afan / Eforiro", price: "₦38,000.00" }, {name: "Seafood Vegetable", price: "₦40,000.00"}, { name: "Fisherman Soup", price: "₦40,000.00" },
       { name: "Catfish Pepper Soup (with side)", price: "₦30,000.00" }, { name: "Croaker Fish Pepper Soup (with side)", price: "₦25,000.00" },
       { name: "Afan / White / Banga / Oha Soup", price: "₦18,000.00" }, { name: "Ogbono Soup", price: "₦17,500.00" },
-      { name: "Isi'Ewu", price: "₦17,000.00" }, { name: "Edikang Ikong Soup", price: "₦16,500.00" },
-      { name: "Vegetable / Okra / Egusi Soup", price: "₦16,000.00" }, { name: "Special Dried Fish Veg (with side)", price: "₦14,500.00" },
+      { name: "Isi'Ewu", price: "₦17,000.00" }, { name: "Edikang Ikong Soup", price: "₦17,000.00" },
+      { name: "Vegetable / Okra / Egusi Soup", price: "₦18,000.00" }, { name: "Special Dried Fish Veg (with side)", price: "₦14,500.00" },
       { name: "Nkwobi", price: "₦14,000.00" }, { name: "Goat Meat Pepper Soup", price: "₦13,500.00" },
       { name: "Abacha", price: "₦13,000.00" }, { name: "Chicken / Turkey / Assorted Pepper Soup", price: "₦12,500.00" }
     ]},
     { category: "Grilled & Suya", items: [
-      { name: "BBQ Grill Catfish / Croaker Fish (with side)", price: "₦30,000.00" }, { name: "Full BBQ Grill Chicken (with side)", price: "₦20,000.00" },
+      { name: "BBQ Grill Catfish / Croaker Fish (with side)", price: "₦30,000.00" }, { name: "Full BBQ Grill Chicken (with side)", price: "₦23,000.00" },
       { name: "Grill Titus Fish with Side", price: "₦11,500.00" }, { name: "Ram / Beef / Tozo / Kidney / Liver / Shaki Suya / Kilishi", price: "₦3,500.00" },
       { name: "Chicken Suya", price: "₦3,000.00" }
     ]},
@@ -306,7 +306,7 @@ export default function Menu() {
                 isOpposing ? "bg-[#F4EFE6] border-[#0E0F10]/10" : "bg-[#0E0F10] border-white/10"
               }`}
             >
-              <div className="flex flex-col items-center gap-6 py-8">
+              <div className="flex flex-col items-center gap-6 py-8 z-50">
                 {['Cellar', 'Kitchen', 'Games'].map((tab) => (
                   <button
                     key={tab}
