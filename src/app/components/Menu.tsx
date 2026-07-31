@@ -142,11 +142,12 @@ const rawMenuData = {
     ]},
     { category: "Starters / Appetizers", items: [
       { name: "Full Guinea Fowl", price: "₦25,000.00" }, { name: "Full Chicken Vegetables with Side", price: "₦24,500.00" },
-      { name: "Jag's Jumbo Snail with Chips", price: "₦16,500.00" }, { name: "Chicken Nuggets / Fingers", price: "₦14,000.00" },
-      { name: "Goat Meat & Chips or Yam", price: "₦13,000.00" }, { name: "Turkey & Chips or Yam", price: "₦12,700.00" },
+      { name: "Jag's Jumbo Snail with Chips", price: "₦18,500.00" }, { name: "Chicken Nuggets / Fingers", price: "₦14,000.00" },
+      { name: "Goat Meat & Chips or Yam", price: "₦15,000.00" }, { name: "Turkey & Chips or Yam", price: "₦15,000.00" },
       { name: "Pepper Snail with Chips or Yam", price: "₦12,500.00" }, { name: "Chicken / Gizzard / Wings & Chips", price: "₦12,500.00" },
       { name: "Asun & Chips or Yam", price: "₦11,500.00" }, { name: "Pepper Snail Appetizer", price: "₦9,000.00" },
-      { name: "Pepper Goat Meat", price: "₦8,500.00" }, { name: "Pepper Beef / Turkey / Assorted", price: "₦8,500.00" },
+      { name: "Pepper Goat Meat", price: "₦8,500.00" }, { name: "Pepper Beef / Assorted", price: "₦8,500.00" },
+      { name: "Pepper Turkey", price: "₦9,500.00" },
       { name: "Chicken Lollipop / Pepper Gizzard / Pepper Chicken", price: "₦7,500.00" }
     ]},
     { category: "Soups & Native", items: [
@@ -155,7 +156,7 @@ const rawMenuData = {
       { name: "Afan / White / Banga / Oha Soup", price: "₦18,000.00" }, { name: "Ogbono Soup", price: "₦17,500.00" },
       { name: "Isi'Ewu", price: "₦17,000.00" }, { name: "Edikang Ikong Soup", price: "₦17,000.00" },
       { name: "Vegetable / Okra / Egusi Soup", price: "₦17,000.00" }, { name: "Special Dried Fish Veg (with side)", price: "₦14,500.00" },
-      { name: "Nkwobi", price: "₦14,000.00" }, { name: "Goat Meat Pepper Soup", price: "₦13,500.00" },
+      { name: "Nkwobi", price: "₦15,000.00" }, { name: "Goat Meat Pepper Soup", price: "₦13,500.00" },
       { name: "Abacha", price: "₦13,000.00" }, { name: "Chicken / Turkey / Assorted Pepper Soup", price: "₦12,500.00" }
     ]},
     { category: "Grilled & Suya", items: [
@@ -165,7 +166,7 @@ const rawMenuData = {
     ]},
     { category: "Rice & Pasta", items: [
       { name: "Pineapple Seafood Rice", price: "₦37,000.00" }, { name: "Seafood Rice", price: "₦34,000.00" },
-      { name: "Seafood Singapore Noodles", price: "₦33,500.00" }, { name: "Oriental Rice / Chinese Rice", price: "₦30,000.00" },
+      { name: "Seafood Singapore Noodles", price: "₦35,000.00" }, { name: "Oriental Rice / Chinese Rice", price: "₦30,000.00" },
       { name: "Jambalaya Rice", price: "₦28,000.00" }, { name: "Pasta Alfredo / Normal Singapore Noodles", price: "₦18,000.00" },
       { name: "Ofada Rice / Basmatic Rice (with meat)", price: "₦17,000.00" }, { name: "Native Rice (with meat)", price: "₦16,500.00" },
       { name: "Spaghetti Bolognese", price: "₦15,000.00" }, { name: "Coconut Rice (with meat)", price: "₦15,000.00" },
