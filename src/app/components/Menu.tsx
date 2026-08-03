@@ -146,7 +146,7 @@ const rawMenuData = {
       { name: "Goat Meat & Chips or Yam", price: "₦15,000.00" }, { name: "Turkey & Chips or Yam", price: "₦15,000.00" },
       { name: "Pepper Snail with Chips or Yam", price: "₦12,500.00" }, { name: "Chicken / Gizzard / Wings & Chips", price: "₦13,500.00" },
       { name: "Asun & Chips or Yam", price: "₦11,500.00" }, { name: "Pepper Snail Appetizer", price: "₦9,000.00" },
-      { name: "Pepper Goat Meat", price: "₦8,500.00" }, { name: "Pepper Beef / Assorted", price: "₦8,500.00" },
+      { name: "Pepper Goat Meat", price: "₦9,500.00" }, { name: "Pepper Beef / Assorted", price: "₦8,500.00" },
       { name: "Pepper Turkey", price: "₦9,500.00" },
       { name: "Chicken Lollipop / Pepper Gizzard / Pepper Chicken", price: "₦7,500.00" }
     ]},
@@ -160,8 +160,8 @@ const rawMenuData = {
       { name: "Turkey Pepper Soup", price: "₦15,000.00" }, { name: "Beef / Assorted Pepper Soup", price: "₦14,000.00" },]},
     { category: "Grilled & Suya", items: [
       { name: "BBQ Grill Catfish / Croaker Fish (with side)", price: "₦30,000.00" }, { name: "Full BBQ Grill Chicken (with side)", price: "₦23,000.00" },
-      { name: "Grill Titus Fish with Side", price: "₦11,500.00" }, { name: "Ram / Beef / Tozo / Kidney / Liver / Shaki Suya / Kilishi", price: "₦3,500.00" },
-      { name: "Chicken Suya", price: "₦3,000.00" }
+      { name: "Grill Titus Fish with Side", price: "₦11,500.00" }, { name: "Ram / Beef / Tozo / Kidney / Liver / Shaki Suya / Kilishi", price: "₦3,750.00" },
+      { name: "Chicken Suya", price: "₦3,500.00" }
     ]},
     { category: "Rice & Pasta", items: [
       { name: "Pineapple Seafood Rice", price: "₦37,000.00" }, { name: "Seafood Rice", price: "₦34,000.00" },
