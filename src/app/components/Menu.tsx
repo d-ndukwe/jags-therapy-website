@@ -144,7 +144,7 @@ const rawMenuData = {
       { name: "Full Guinea Fowl", price: "₦25,000.00" }, { name: "Full Chicken Vegetables with Side", price: "₦24,500.00" },
       { name: "Jag's Jumbo Snail with Chips", price: "₦18,500.00" }, { name: "Chicken Nuggets / Fingers", price: "₦14,000.00" },
       { name: "Goat Meat & Chips or Yam", price: "₦15,000.00" }, { name: "Turkey & Chips or Yam", price: "₦15,000.00" },
-      { name: "Pepper Snail with Chips or Yam", price: "₦12,500.00" }, { name: "Chicken / Gizzard / Wings & Chips", price: "₦12,500.00" },
+      { name: "Pepper Snail with Chips or Yam", price: "₦12,500.00" }, { name: "Chicken / Gizzard / Wings & Chips", price: "₦13,500.00" },
       { name: "Asun & Chips or Yam", price: "₦11,500.00" }, { name: "Pepper Snail Appetizer", price: "₦9,000.00" },
       { name: "Pepper Goat Meat", price: "₦8,500.00" }, { name: "Pepper Beef / Assorted", price: "₦8,500.00" },
       { name: "Pepper Turkey", price: "₦9,500.00" },
@@ -156,9 +156,8 @@ const rawMenuData = {
       { name: "Afan / White / Banga / Oha Soup", price: "₦18,000.00" }, { name: "Ogbono Soup", price: "₦17,500.00" },
       { name: "Isi'Ewu", price: "₦17,000.00" }, { name: "Edikang Ikong Soup", price: "₦17,000.00" },
       { name: "Vegetable / Okra / Egusi Soup", price: "₦17,000.00" }, { name: "Special Dried Fish Veg (with side)", price: "₦14,500.00" },
-      { name: "Nkwobi", price: "₦15,000.00" }, { name: "Goat Meat Pepper Soup", price: "₦13,500.00" },
-      { name: "Abacha", price: "₦13,000.00" }, { name: "Chicken / Turkey / Assorted Pepper Soup", price: "₦12,500.00" }
-    ]},
+      { name: "Nkwobi", price: "₦15,000.00" }, { name: "Goat Meat Pepper Soup", price: "₦15,000.00" },
+      { name: "Turkey Pepper Soup", price: "₦15,000.00" }, { name: "Beef / Assorted Pepper Soup", price: "₦14,000.00" },]},
     { category: "Grilled & Suya", items: [
       { name: "BBQ Grill Catfish / Croaker Fish (with side)", price: "₦30,000.00" }, { name: "Full BBQ Grill Chicken (with side)", price: "₦23,000.00" },
       { name: "Grill Titus Fish with Side", price: "₦11,500.00" }, { name: "Ram / Beef / Tozo / Kidney / Liver / Shaki Suya / Kilishi", price: "₦3,500.00" },
